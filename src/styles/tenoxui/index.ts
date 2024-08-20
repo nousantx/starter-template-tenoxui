@@ -14,6 +14,8 @@ export const styler = ({ property = {}, values = {}, classes = {}, deps = [] } =
       // breakpoint
     });
 
+
+
     tenoxui();
   }, [...deps]);
 };
