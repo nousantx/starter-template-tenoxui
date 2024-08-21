@@ -28,7 +28,7 @@ const typesNProperties = {
     // property: cssProperty | cssProperty[]
     property: "padding",
     // value: cssValue
-    value: "1rem {value} 10px {value}"
+    value: "1rem {value} 10px {value}",
     // all `{value}` will replaced with the inputted value
     // example _ <div class="my-padd-2rem"></div>
     // same as _ .my-padd-2rem { padding: 1rem 2rem 10px 2rem }
@@ -45,8 +45,8 @@ const typesNProperties = {
   gradient: {
     // _ gradient-blue, gradient-#f00
     property: "backgroundImage",
-    value: "linear-gradient(to right, {value}, blue)"
-  }
+    value: "linear-gradient(to right, {value}, blue)",
+  },
 };
 
 export const property = { ...tenoxProperties.default };

@@ -13,6 +13,6 @@ export const values = {
     // other type can't access the value defined under exact type like this, like `h-2xl` or `p-2xl`. The value will only available for that exact type.
 
     // re-write value
-    full: "200px" // will
-  }
+    full: "200px", // will
+  },
 };

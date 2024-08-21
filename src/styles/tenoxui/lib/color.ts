@@ -15,7 +15,7 @@ export const colors: { [color: string]: string[] } = {
     "#334155",
     "#1e293b",
     "#0f172a",
-    "#020617"
+    "#020617",
   ],
   gray: [
     "#f9fafb",
@@ -28,7 +28,7 @@ export const colors: { [color: string]: string[] } = {
     "#374151",
     "#1f2937",
     "#111827",
-    "#030712"
+    "#030712",
   ],
   zinc: [
     "#fafafa",
@@ -41,7 +41,7 @@ export const colors: { [color: string]: string[] } = {
     "#3f3f46",
     "#27272a",
     "#18181b",
-    "#09090b"
+    "#09090b",
   ],
   neutral: [
     "#fafafa",
@@ -54,7 +54,7 @@ export const colors: { [color: string]: string[] } = {
     "#404040",
     "#262626",
     "#171717",
-    "#0a0a0a"
+    "#0a0a0a",
   ],
   stone: [
     "#fafaf9",
@@ -67,7 +67,7 @@ export const colors: { [color: string]: string[] } = {
     "#44403c",
     "#292524",
     "#1c1917",
-    "#0c0a09"
+    "#0c0a09",
   ],
   red: [
     "#fef2f2",
@@ -80,7 +80,7 @@ export const colors: { [color: string]: string[] } = {
     "#b91c1c",
     "#991b1b",
     "#7f1d1d",
-    "#450a0a"
+    "#450a0a",
   ],
   orange: [
     "#fff7ed",
@@ -93,7 +93,7 @@ export const colors: { [color: string]: string[] } = {
     "#c2410c",
     "#9a3412",
     "#7c2d12",
-    "#431407"
+    "#431407",
   ],
   amber: [
     "#fffbeb",
@@ -106,7 +106,7 @@ export const colors: { [color: string]: string[] } = {
     "#b45309",
     "#92400e",
     "#78350f",
-    "#451a03"
+    "#451a03",
   ],
   yellow: [
     "#fefce8",
@@ -119,7 +119,7 @@ export const colors: { [color: string]: string[] } = {
     "#a16207",
     "#854d0e",
     "#713f12",
-    "#422006"
+    "#422006",
   ],
   lime: [
     "#f7fee7",
@@ -132,7 +132,7 @@ export const colors: { [color: string]: string[] } = {
     "#4d7c0f",
     "#3f6212",
     "#365314",
-    "#1a2e05"
+    "#1a2e05",
   ],
   green: [
     "#f0fdf4",
@@ -145,7 +145,7 @@ export const colors: { [color: string]: string[] } = {
     "#15803d",
     "#166534",
     "#14532d",
-    "#052e16"
+    "#052e16",
   ],
   emerald: [
     "#ecfdf5",
@@ -158,7 +158,7 @@ export const colors: { [color: string]: string[] } = {
     "#047857",
     "#065f46",
     "#064e3b",
-    "#022c22"
+    "#022c22",
   ],
   teal: [
     "#f0fdfa",
@@ -171,7 +171,7 @@ export const colors: { [color: string]: string[] } = {
     "#0f766e",
     "#115e59",
     "#134e4a",
-    "#042f2e"
+    "#042f2e",
   ],
   cyan: [
     "#ecfeff",
@@ -184,7 +184,7 @@ export const colors: { [color: string]: string[] } = {
     "#0e7490",
     "#155e75",
     "#164e63",
-    "#083344"
+    "#083344",
   ],
   sky: [
     "#f0f9ff",
@@ -197,7 +197,7 @@ export const colors: { [color: string]: string[] } = {
     "#0369a1",
     "#075985",
     "#0c4a6e",
-    "#082f49"
+    "#082f49",
   ],
   blue: [
     "#eff6ff",
@@ -210,7 +210,7 @@ export const colors: { [color: string]: string[] } = {
     "#1d4ed8",
     "#1e40af",
     "#1e3a8a",
-    "#172554"
+    "#172554",
   ],
   indigo: [
     "#eef2ff",
@@ -223,7 +223,7 @@ export const colors: { [color: string]: string[] } = {
     "#4338ca",
     "#3730a3",
     "#312e81",
-    "#1e1b4b"
+    "#1e1b4b",
   ],
   violet: [
     "#f5f3ff",
@@ -236,7 +236,7 @@ export const colors: { [color: string]: string[] } = {
     "#6d28d9",
     "#5b21b6",
     "#4c1d95",
-    "#2e1065"
+    "#2e1065",
   ],
   purple: [
     "#faf5ff",
@@ -249,7 +249,7 @@ export const colors: { [color: string]: string[] } = {
     "#7e22ce",
     "#6b21a8",
     "#581c87",
-    "#3b0764"
+    "#3b0764",
   ],
   fuchsia: [
     "#fdf4ff",
@@ -262,7 +262,7 @@ export const colors: { [color: string]: string[] } = {
     "#a21caf",
     "#86198f",
     "#701a75",
-    "#4a044e"
+    "#4a044e",
   ],
   pink: [
     "#fdf2f8",
@@ -275,7 +275,7 @@ export const colors: { [color: string]: string[] } = {
     "#be185d",
     "#9d174d",
     "#831843",
-    "#500724"
+    "#500724",
   ],
   rose: [
     "#fff1f2",
@@ -288,7 +288,17 @@ export const colors: { [color: string]: string[] } = {
     "#be123c",
     "#9f1239",
     "#881337",
-    "#4c0519"
+    "#4c0519",
   ],
-  primary: ["#F9FFF2", "#E8FFCB", "#DBFEA4", "#D1FB7B", "#CAF553", "#A2C12B", "#7C8E17", "#535A0D", "#252605"]
+  primary: [
+    "#F9FFF2",
+    "#E8FFCB",
+    "#DBFEA4",
+    "#D1FB7B",
+    "#CAF553",
+    "#A2C12B",
+    "#7C8E17",
+    "#535A0D",
+    "#252605",
+  ],
 };

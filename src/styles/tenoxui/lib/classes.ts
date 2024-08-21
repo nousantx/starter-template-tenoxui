@@ -9,8 +9,8 @@ export const classNames = useClasses({
   "its-just-example": {
     "--my-exa-color": "#121315",
     color: "#ccf654",
-    backgroundColor: "var(--my-exa-color)"
-  }
+    backgroundColor: "var(--my-exa-color)",
+  },
   // same as
   // "--my-exa-color": { "its-just-example": "..." },
   // color: { "its-just-example": "..." },
@@ -39,13 +39,13 @@ export const classUtils = {
   // {cssProperty}: {...{className: cssValue}}
   display: {
     flex: "flex", // same as _ .flex { display: flex }
-    hidden: "none" // usage _ <div className="hidden"></div>; same as _ .hidden { display: none }
+    hidden: "none", // usage _ <div className="hidden"></div>; same as _ .hidden { display: none }
   },
   // other
   fontWeight: {
     "font-light": "300", // // usage _ <div className="font-light"></div>; same as _ .font-light { font-weight: 300 }
     "font-normal": "400",
-    "font-medium": "500"
+    "font-medium": "500",
     // ...
-  }
+  },
 };
